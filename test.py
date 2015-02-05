@@ -31,7 +31,6 @@ def my_decorator(f):
     return wrapper
 
 run = my_decorator(run)
-local = my_decorator(local)
 if __name__ == "__main__":
     with settings(host_string=sys.argv[1]):
         run(sys.argv[2])
