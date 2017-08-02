@@ -1,4 +1,6 @@
+#import tkinter
 from Tkinter import *
+
 #List to store values
 my_list = []
 # Front lables to display
