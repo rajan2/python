@@ -93,11 +93,14 @@ def update_label_values(my_list):
     """
     Update the answer lables values with list
     """
-    for label in alabels:
-        for i in range(5):
-            label.config(text=str(my_list[i])+' Ohm')
-        #update idletasks finish all tk loops of current execution
-        master.update_idletasks()
+    #for label in alabels:
+    #    for i in range(5):
+    #        label.config(text=str(my_list[i])+' Ohm')
+    #    #update idletasks finish all tk loops of current execution
+    #    master.update_idletasks()
+    for j in range(5):
+        alablels[j].config(text=str(my_list[j])+' Ohm')
+    master.update_idletasks()
 
 #Declare new master
 master = Tk()
