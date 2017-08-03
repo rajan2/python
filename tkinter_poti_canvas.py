@@ -11,8 +11,8 @@ flabels = []
 # Answer lables
 alabels = []
 # Dummy list generator incrementor
-i = 1
-i
+#i = 1
+
 #initialize MCP
 
 # Software SPI configuration:
